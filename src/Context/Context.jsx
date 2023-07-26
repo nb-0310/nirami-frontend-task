@@ -6,7 +6,7 @@ const DataContextProvider = ({ children }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("../../src/Data/data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data.recurringDeposits);
