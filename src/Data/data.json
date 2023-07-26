@@ -1,0 +1,61 @@
+{
+  "recurringDeposits": [
+    {
+      "id": 1,
+      "accountNumber": "1330001",
+      "linkedBankAccount": "1300001",
+      "status": "Open",
+      "bankCode": "SBI0045",
+      "bankName": "SBI",
+      "balance": "Rs. 15,000",
+      "otherDetails": {
+        "principalAmount": "Rs. 50,000",
+        "availableBalance": "Rs. 0",
+        "monthlyDeposit": "Rs. 2,000",
+        "interestAmount": "Rs. 10,000",
+        "interestPercentage": "10%",
+        "maturityAmount": "Rs. 60,000",
+        "tax": "Yes",
+        "tenure": "12 Months"
+      }
+    },
+    {
+      "id": 2,
+      "accountNumber": "1330002",
+      "linkedBankAccount": "1300002",
+      "status": "Closed",
+      "bankCode": "HDFC0045",
+      "bankName": "HDFC",
+      "balance": "Rs. 25,000",
+      "otherDetails": {
+        "principalAmount": "Rs. 60,000",
+        "availableBalance": "Rs. 35,000",
+        "monthlyDeposit": "Rs. 500",
+        "interestAmount": "Rs. 10,000",
+        "interestPercentage": "20%",
+        "maturityAmount": "Rs. 70,000",
+        "tax": "No",
+        "tenure": "6 Months"
+      }
+    },
+    {
+      "id": 3,
+      "accountNumber": "1330003",
+      "linkedBankAccount": "1300003",
+      "status": "Open",
+      "bankCode": "ICICI0045",
+      "bankName": "ICICI",
+      "balance": "Rs. 55,000",
+      "otherDetails": {
+        "principalAmount": "Rs. 1,00,000",
+        "availableBalance": "Rs. 22,500",
+        "monthlyDeposit": "Rs. 10,000",
+        "interestAmount": "Rs. 20,000",
+        "interestPercentage": "10%",
+        "maturityAmount": "Rs. 1,50,000",
+        "tax": "Yes",
+        "tenure": "12 Months"
+      }
+    }
+  ]
+}
